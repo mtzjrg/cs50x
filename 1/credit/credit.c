@@ -35,7 +35,6 @@ int count_digits(long c)
     int n = 0;
     for (int i = 0; i < c; c /= 10)
         n++;
-
     return n;
 }
 
